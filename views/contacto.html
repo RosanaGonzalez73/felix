@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--CONFIGURACION-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--FAVICON-->
+        <link rel="icon" type="image/png" href="../favicon.png?v=2">
+        <!--TITULO DE LA PAGINA-->
+        <title>MI PRIMERA WEB</title>
+        <!--ENLACE A ESTILOS CSS-->
+        <link rel="stylesheet" href="../css/estilos.css">
+    </head>
+
+    <body style="background-color:rgb(234, 228, 228);">
+
+        <header>
+            <!--LOGO DE LA EMPRESA-->
+            <img src="../asset/image/logo.JPG" alt="logo" class="logo">
+
+            <!--MENU DE NAVEGACION-->
+            <ul>               
+                <li><a href="../index.html">INICIO</a> </li>
+                <li><a href="productos.html">PRODUCTOS</a> </li>
+                <li><a href="presupuesto.html">PRESUPUESTO</a> </li>
+                <li style="background:rgb(77, 76, 76)"><a href="contacto.html">CONTACTO</a> </li>                                
+            </ul>
+        </header>
+
+        <main>
+            <!--TITULO DE LA PAGINA-->
+            <h1>Visite el monumento dedicado a Felix Rodriguez de la Fuente</h1>
+            <!--INSERTAMOS EL MAPA CON LA UBICACION-->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1744.3697749164671!2d-3.502459296481711!3d42.668378084195425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4f44a731b8840b%3A0x35d1d7dfae8effe7!2sMonumento%20a%20F%C3%A9lix%20Rodr%C3%ADguez%20de%20la%20Fuente!5e0!3m2!1ses!2ses!4v1652731206110!5m2!1ses!2ses"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!--CREAMOS UN CONTENEDOR E INTRODUCIMOS LA DIRECCION DE LA EMPRESA-->
+            <span id="mapa">
+                <label class="textomapa">Ubicación:</label><label class="textoubicacion"> Monumento a Felix Rodríguez de la Fuente</label><br><br>
+                <label class="textomapa">Direccion:</label><label class="textoubicacion"> Paseo Fuensanta 17</label><br><br>
+                <label class="textomapa">Telefono:</label><label class="textoubicacion"> 917757473</label><br><br>
+                <label class="textomapa">Ciudad</label><label class="textoubicacion"> Poza de la Sal, Burgos</label><br><br>
+                <label class="textomapa">Email:</label><label class="textoubicacion">gonzalezrosana@gmail.com</label><br><br>  
+            </span>
+        
+        </main>
+        
+         <!-- FOOTER: Pie de página, accesos a RRSS, aviso legal -->
+        <footer>
+            <!--CREO UN BLOQUE O CAJA PARA LOS DATOS DE LA EMPRESA-->
+            <div class="dirEmpresa">
+                <p>
+                    <b>Hermano Lobo</b><br>
+                     Paseo Fuensanta 17<br>
+                    Poza de la sal, Burgos<br>
+                    Tlf de contacto:917757473<br>
+                    Email:gonzalezrosana@gmail.com
+                </p>  
+            </div>
+            <!--CREO LA NAVEGACION A LOS ENLACES DE DIFERENTES RRSS-->      
+            <nav class="enlacesFooter">         
+                <a href="http://www.facebook.com"><img class="fb_logo" src="../asset/image/fb.png" alt="facebook icon" width="225" height="225"></a>
+                <a href="https://www.instagram.com/"><img class="insta_logo" src="../asset/image/insta_logo.jpg" alt="insta_logo icon" width="119" height="119"></a>
+                <a href="https://www.youtube.com/"><img class="youtube_logo" src="../asset/image/youtube.png" alt="youtube_logo icon" width="119" height="79"></a>
+                <a href="http://www.google.com"><img class="google_logo" src="../asset/image/google_logo.png" alt="google icon" width="544" height="184"></a>
+            </nav>
+            <!--CREO UN CHECKBOX PARA LA POLITICA DE PRIVACIDAD QUE OBLIGO A ACEPTAR CON REQUIRED-->
+            <span class="privacidad">
+                <input type="checkbox" required><label>Política de privacidad</label>
+            </span> 
+
+        </footer>
+    </body>
+ </html>

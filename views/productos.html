@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--CONFIGURACION-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--FAVICON-->
+        <link rel="icon" type="image/png" href="../favicon.png">
+        <!--TITULO DE LA PAGINA-->
+        <title>MI PRIMERA WEB</title>
+        <!--ENLACE A ESTILOS CSS-->
+        <link rel="stylesheet" href="../css/estilos.css">
+    </head>
+
+    <body style="background-color:rgb(234, 228, 228);">
+
+        <header>
+            <!--LOGO DE LA EMPRESA-->
+            <img src="../asset/image/logo.JPG" alt="logo" class="logo">
+
+            <!--MENU DE NAVEGACION-->
+            <ul>               
+                <li><a href="../index.html">INICIO</a> </li>
+                <li style="background:rgb(77, 76, 76)"><a href="productos.html">PRODUCTOS</a> </li> 
+                <li><a href="presupuesto.html">PRESUPUESTO</a> </li>
+                <li><a href="contacto.html">CONTACTO</a> </li>               
+            </ul>
+        </header>
+
+        <main>
+            <!--TITULO DE LA PAGINA-->
+            <h1>Su trabajo en imágenes</h1>
+            <!--CREO UNA CAJA CON UN DIV AL QUE LE DOY UNA CLASS, DENTRO DE LA CAJA METO LOS ENLACES A LOS CONTENIDOS 
+                (EN ESTE CASO IMAGENES A LAS QUE DOY EL MISMO ESTILO A TODAS) Y UNA CLASS A CADA UNA DE ELLAS PARA MODIFICAR CON CSS.
+                AÑADO UN TITULO PARA QUE CUANDO SE PARE EL RATON ENCIMA DE ALGUNA DE ELLAS SE DE UNA DESCRIPCION-->                     
+            <div class="contGaleria">
+                <img src="../asset/image/felix1.jpg" style="width: 350px" alt="imagen de Felix con un lobo" class="galeria" title="lobo">
+                <img src="../asset/image/felix2.jpg" style="width: 350px" alt="Con un águila real" class="galeria" title="águila"> 
+                <img src="../asset/image/felix3.jpg" style="width: 350px" alt="El lince ibérico" class="galeria" title="lince">
+                <img src="../asset/image/felix4.jpg" style="width: 350px" alt="Estatua de la entrada del zoo de Madrid" class="galeria" title="estatua zoo">
+                <img src="../asset/image/felix5.jpg" style="width: 350px" alt="Jugando" class="galeria" title="Jugando">
+                <img src="../asset/image/felix6.jpg" style="width: 350px" alt="Estatua 2" class="galeria" title="estatua">
+                <img src="../asset/image/felix7.jpg" style="width: 350px" alt="Con perros" class="galeria" title="con perros">
+                <img src="../asset/image/felix8.jpg" style="width: 350px" alt="Trabajando" class="galeria" title="trabajando">
+                <img src="../asset/image/felix9.jpg" style="width: 350px" alt="Entrevista" class="galeria" title="entrevista">
+            </div>
+        </main>
+
+         <!-- FOOTER: Pie de página, accesos a RRSS, aviso legal -->
+         <footer>
+             <!--CREO UN BLOQUE O CAJA PARA LOS DATOS DE LA EMPRESA-->
+            <div class="dirEmpresa">
+                <p>
+                    <b>Hermano Lobo</b><br>
+                     Paseo Fuensanta 17<br>
+                    Poza de la sal, Burgos<br>
+                    Tlf de contacto:917757473<br>
+                    Email:gonzalezrosana@gmail.com
+                </p>
+               
+            </div>
+            <!--CREO LA NAVEGACION A LOS ENLACES DE DIFERENTES RRSS-->       
+            <nav class="enlacesFooter">         
+                <a href="http://www.facebook.com"><img class="fb_logo" src="../asset/image/fb.png" alt="facebook icon" width="225" height="225"></a>
+                <a href="https://www.instagram.com/"><img class="insta_logo" src="../asset/image/insta_logo.jpg" alt="insta_logo icon" width="119" height="119"></a>
+                <a href="https://www.youtube.com/"><img class="youtube_logo" src="../asset/image/youtube.png" alt="youtube_logo icon" width="119" height="79"></a>
+                <a href="http://www.google.com"><img class="google_logo" src="../asset/image/google_logo.png" alt="google icon" width="544" height="184"></a>
+            </nav>
+            <!--CREO UN CHECKBOX PARA LA POLITICA DE PRIVACIDAD QUE OBLIGO A ACEPTAR CON REQUIRED-->
+            <span class="privacidad">
+                <input type="checkbox" required><label>Política de privacidad</label>
+            </span> 
+
+        </footer>
+    </body>
+</html>
